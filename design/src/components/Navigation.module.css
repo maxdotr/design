@@ -1,0 +1,9 @@
+.navContainer {
+  color: white !important;
+  background-color: #38423b;
+}
+
+.cartImage {
+  max-width: 3vw !important;
+  min-width: 3vw !important;
+}
