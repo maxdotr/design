@@ -1,14 +1,33 @@
 .headerContainer {
   background-image: url(../imgs/mBike.jpg);
-  height: 20vw;
+  padding: 5%;
+}
+
+.quipContainer {
   display: flex;
-  justify-content: center !important;
+  justify-content: center;
   align-items: center;
 }
 
 .overImageOne {
-  font-size: 4vw;
+  font-size: 5vw;
   color: white;
   text-align: center;
   text-shadow: 5px 5px black;
+}
+
+.buttonContainer {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerButton {
+  width: 20vw;
+  transition: 0.3s;
+}
+.headerButton:hover {
+  transition: 0.3s;
+  opacity: 70%;
 }

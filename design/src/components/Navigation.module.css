@@ -4,6 +4,48 @@
 }
 
 .cartImage {
-  max-width: 3vw !important;
-  min-width: 3vw !important;
+  float: right !important;
+  transition: 0.1s;
+  max-width: 8%;
+}
+
+.cartImage:hover {
+  transition: 0.1s;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10%;
+}
+
+.cartContainer {
+  transition: 0.3s;
+  float: right !important;
+}
+
+.cartContainer:hover {
+  transition: 0.3s;
+  opacity: 50%;
+}
+
+.collapseIcon {
+  float: left !important;
+}
+
+.navbar-toggler-icon {
+  float: right;
+}
+
+.logo {
+  max-height: 90px !important;
+}
+
+.navLink {
+  transition: 0.1s;
+  font-size: 30px;
+}
+
+.navLink:hover {
+  transition: 0.1s;
+  border-style: outset;
+  border-color: black;
+  border-radius: 5%;
 }
