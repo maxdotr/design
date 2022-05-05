@@ -21,6 +21,7 @@ import React from 'react';
 const Content = () => {
   return (
     <Container className={styles.contentContainer} fluid>
+      <h1 className={styles.contentHeader}>Recent news:</h1>
       <Container className={styles.innerContent}>
         <h1 className={styles.contentText}>
           Read More: How our tires have 4x as much grip as all of our

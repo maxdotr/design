@@ -6,6 +6,7 @@ import Content from './components/Content';
 import BestSellers from './components/BestSellers';
 import React from 'react';
 import Navigation from './components/Navigation';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <BestSellers />
       <Content />
+      <Newsletter />
     </React.Fragment>
   );
 }
