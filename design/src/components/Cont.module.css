@@ -1,0 +1,14 @@
+.contactContainer {
+  background-color: #c3c0ab;
+  float: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+}
+
+.phone {
+  margin: 3%;
+  font-size: 30px;
+  width: 600px;
+}
