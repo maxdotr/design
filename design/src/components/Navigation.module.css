@@ -1,6 +1,7 @@
 .navContainer {
   color: white !important;
   background-color: #38423b;
+  padding: 0%;
 }
 
 .cartImage {
@@ -48,4 +49,8 @@
   border-style: outset;
   border-color: black;
   border-radius: 5%;
+}
+
+.routerLink {
+  text-decoration: none;
 }

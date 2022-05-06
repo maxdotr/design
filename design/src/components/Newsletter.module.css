@@ -17,3 +17,22 @@
   width: 100%;
   margin: 2px;
 }
+
+.iconImgs {
+  align-items: center;
+  justify-content: center;
+  float: center;
+  width: 400px;
+}
+
+.copy {
+  text-align: center;
+}
+
+.contactLink {
+  color: black;
+}
+
+.contactLink:hover {
+  color: black;
+}

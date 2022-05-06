@@ -2,6 +2,7 @@ import { Container, Image, Button, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './Header.module.css';
 import mBike from '../imgs/mBike.jpg';
+import { Link, Outlet } from 'react-router-dom';
 import React from 'react';
 
 const Header = () => {
@@ -18,9 +19,11 @@ const Header = () => {
             </Button>
           </Col>
           <Col>
-            <Button variant='dark' className={styles.headerButton}>
-              Contact
-            </Button>
+            <Link to='/contact'>
+              <Button variant='dark' className={styles.headerButton}>
+                Contact
+              </Button>
+            </Link>
           </Col>
         </Row>
       </Container>

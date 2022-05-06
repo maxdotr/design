@@ -5,18 +5,20 @@ import Header from './components/Header.js';
 import Content from './components/Content';
 import BestSellers from './components/BestSellers';
 import React from 'react';
+import Home from './pages/Home';
+import Contact from './pages/Contact.js';
 import Navigation from './components/Navigation';
 import Newsletter from './components/Newsletter';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <React.Fragment>
-      <Navigation />
-      <Header />
-      <BestSellers />
-      <Content />
-      <Newsletter />
-    </React.Fragment>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
